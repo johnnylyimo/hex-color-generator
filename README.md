@@ -7,6 +7,8 @@ The generate function generates random Hex color each time you call it. Invoking
 
 This package is published on JSR, the new open-source package registry for modern JavaScript and Typescript. To learn more about JSR visit [jsr.io](https://jsr.io/).
 
+## License
+MIT
 
 Installation:
 
@@ -27,6 +29,3 @@ let color = generate();
 <div class={` text-[${color}]`} > User Profile </div>
 //after generate: <div class={` text-[#0969DA]`} > User Profile </div>
 
-## License
-
-MIT
