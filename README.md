@@ -1,11 +1,11 @@
 # Generate random Hex color codes
 
 ## use `hex-color-generator` to generate random Hex color codes i.e `#42AAB2`
-The generate function generates random Hex color each time you call it. Invoking `generate()` will generate randomly Hex color. The 
+The generate function generates random Hex color each time you call it. Invoking `generate()` will generate randomly Hex color code i.e. #42AAB2
 
-`hex-color-generator` is very tiny package, no need to worry about! try today! :+1
+`hex-color-generator` is very tiny package, no need to worry about its size! try today!
 
-This package is published on JSR, the new open-source package registry for modern JavaScript and Typescript. To learn more about JSR visit [jsr.io](https://jsr.io/).
+This package is published on JSR, the new open-source package registry for modern JavaScript and Typescript. To learn more about JSR visit [jsr.io](https://jsr.io/)
 
 ## License
 MIT
@@ -26,6 +26,7 @@ Examples:
 import { generate } from "hex-color-generator";
 
 let color = generate();
-<div class={` text-[${color}]`} > User Profile </div>
-//after generate: <div class={` text-[#0969DA]`} > User Profile </div>
+<h1 style={{color: color}}>Home</h1>
+<h1 style={{color: generate()}}>Home</h1>
+//after generate: <h1 style={{color: #0969DA}}>Home</h1>
 
